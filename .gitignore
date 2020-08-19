@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Parcel output directory for dev script
+dev/
+
+# Parcel output directory for build script
+build/

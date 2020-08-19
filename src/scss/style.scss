@@ -32,6 +32,13 @@ h6 {
 }
 
 body {
+    &::before {
+        content: '';
+        display: block;
+        height: 4px;
+        background-color: $color-red;
+    }
+
     background-color: $color-smoke;
     min-width: 320px;
 }
@@ -87,7 +94,7 @@ section {
 
 .btn {
     border-radius: $border-radius;
-    color: $color-white;
+    color: rgba($color-white, .9);
     display: inline-block;
     font-weight: $fw-semi-bold;
     padding: .75em 1.5em;
